@@ -1,0 +1,164 @@
+img
+{
+    position:relative;
+    top: auto;
+    left: auto;
+    margin:left;    
+}
+
+
+p.centrado
+{
+
+    text-align: center;
+
+}
+
+body
+{
+    background-color:darkcyan;
+}
+.centrado
+{
+    text-align: center;
+}
+
+.p1
+{
+    margin: auto;
+    width: 17%;
+    height: 15vh;
+    color:black;
+    float:initial;
+    font-family: cursive;
+}
+
+.p2
+{
+    margin: auto;
+    width: 25%;
+    height: 15vh;
+    color:black;
+    float:initial;
+    font-family: cursive;
+}
+
+.p3
+{
+    margin: auto;
+    width: 30%;
+    height: 15vh;
+    color:black;
+    float:initial;
+    font-family: cursive;
+}
+
+h1
+{
+    font-size: 40px;
+    text-align: center;
+}
+
+.conjunto
+{
+    text-align: right;
+}
+
+.p4
+{
+    
+    margin: auto;
+    height: auto;
+    color:red;
+    
+    
+}
+
+body{
+    font-family: arial, helvetica;
+    background-color: #e8e8e8;
+}
+
+.menu{
+    
+    background: #2bb386;
+    
+}
+
+.menu li a{
+    text-decoration: none;
+    color:black;
+    padding: 20px;
+    display: block;
+}
+
+.menu li{
+    display: inline-block;
+    text-align: center;
+}
+
+.menu li a:hover{
+    background: #00ca94;
+}
+
+.product img{
+    width: 200px;
+}
+
+.product h3{
+    font-size: 1.7em;
+    margin-top: 5px;
+    margin-bottom: 5px;
+}
+
+.card{
+    border-radius: 4px;
+    background-color: white;
+    box-shadow: 0 1px 3px rgba(0,0,0.12), 0 1px 2px rgba(0,0,0,0.24);
+}
+
+.product-small-img img{
+    width:100%;
+    border:1px solid rgba(0,0,0.2) ;
+    padding: 8px;
+    margin: 10px 10px 15px;
+    cursor:pointer;
+}
+
+.product-small-img{
+    width: 8%;
+    display: flex;
+
+}
+
+.img-container img{
+    height: 460px;
+
+}
+.img-container{
+    padding: 10px;
+    width: 45%;
+}
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+ #img-center {
+    display: block;
+    margin-left: auto;
+    margin-right:  auto;
+
+}
+
+.small-img-group{
+    display: flex;
+    justify-content: space-between;
+}
+
+.small-img-col{
+    flex-basis: 24%;
+    cursor: pointer;
+}
